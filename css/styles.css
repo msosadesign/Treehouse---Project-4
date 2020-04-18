@@ -4,6 +4,99 @@
 /* ============================================= */
 /* Utilities Imports */
 /* ============================================= */
+.default {
+  background-color: #58e1c1;
+  transition: 0.3s;
+}
+.default:hover {
+  cursor: pointer;
+  background-color: #99edd9;
+}
+
+.error {
+  background-color: #e4757a;
+  transition: 0.3s;
+}
+.error:hover {
+  cursor: pointer;
+  background-color: #f1b5b8;
+}
+
+.info {
+  background-color: #927bc1;
+  transition: 0.3s;
+}
+.info:hover {
+  cursor: pointer;
+  background-color: #bdafd9;
+}
+
+.success {
+  background-color: #63cc82;
+  transition: 0.3s;
+}
+.success:hover {
+  cursor: pointer;
+  background-color: #9ddfb0;
+}
+
+.warning {
+  background-color: #fc7856;
+  transition: 0.3s;
+}
+.warning:hover {
+  cursor: pointer;
+  background-color: #fdb4a1;
+}
+
+.theme.col-1 {
+  background-color: #927bc1;
+}
+
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
 /* ============================================= */
 /* Base Imports */
 /* ============================================= */
@@ -407,26 +500,6 @@ a {
   border-radius: 5px;
 }
 
-.default {
-  background-color: #51ddfc;
-}
-
-.error {
-  background-color: #e4757a;
-}
-
-.info {
-  background-color: #927bc1;
-}
-
-.success {
-  background-color: #63cc82;
-}
-
-.warning {
-  background-color: #fd7856;
-}
-
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
@@ -587,94 +660,136 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+}
 
+@media (min-width: 768px) {
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+}
 
+@media (min-width: 768px) {
   .row {
     flex-direction: row;
   }
+}
 
+@media (min-width: 768px) {
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
+}
 
+@media (min-width: 768px) {
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
+}
 
+@media (min-width: 768px) {
   .col-1 {
     flex-basis: 8.33%;
   }
+}
 
+@media (min-width: 768px) {
   .col-2 {
     flex-basis: 16.67%;
   }
+}
 
+@media (min-width: 768px) {
   .col-3 {
     flex-basis: 25%;
   }
+}
 
+@media (min-width: 768px) {
   .col-4 {
     flex-basis: 33.33%;
   }
+}
 
+@media (min-width: 768px) {
   .col-5 {
     flex-basis: 41.67%;
   }
+}
 
+@media (min-width: 768px) {
   .col-6 {
     flex-basis: 50%;
   }
+}
 
+@media (min-width: 768px) {
   .col-7 {
     flex-basis: 58.33%;
   }
+}
 
+@media (min-width: 768px) {
   .col-8 {
     flex-basis: 66.67%;
   }
+}
 
+@media (min-width: 768px) {
   .col-9 {
     flex-basis: 75%;
   }
+}
 
+@media (min-width: 768px) {
   .col-10 {
     flex-basis: 83.33%;
   }
+}
 
+@media (min-width: 768px) {
   .col-11 {
     flex-basis: 91.67%;
   }
+}
 
+@media (min-width: 768px) {
   .col-12 {
     flex-basis: 100%;
   }
+}
 
+@media (min-width: 768px) {
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
+}
 
+@media (min-width: 768px) {
   .nav-link {
     flex-basis: 100px;
   }
+}
 
+@media (min-width: 768px) {
   .btn {
     padding: 10px 30px;
   }
+}
 
+@media (min-width: 768px) {
   .btn + .btn {
     margin-left: 10px;
   }
+}
 
+@media (min-width: 768px) {
   .logo {
     margin-left: initial;
     margin-right: initial;

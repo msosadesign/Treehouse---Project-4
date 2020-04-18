@@ -1,0 +1,18 @@
+// Button background loop
+
+@each $state, $color in $btn-bg  {
+  .#{$state} {
+    background-color: $color;
+    transition: 0.3s;
+    &:hover {
+      cursor: pointer;
+      background-color: lighten($color, 15%);
+    }
+  }
+}
+
+@each $col-num, $background in $col-bg  {
+  .theme.#{$col-num} {
+    background-color: #{$background};
+  }
+}
