@@ -1,8 +1,7 @@
-# Treehouse - Project 4
-
+# Circles UI Kit
 This is a website styled with sass, using scss syntax.
 
-Link: https://msosadesign.github.io/treehouse-project-4/
+[Live Demo](https://msosadesign.github.io/treehouse-project-4/)
 
 Technologies used:
 - HTML
